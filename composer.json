@@ -1,0 +1,23 @@
+{
+    "name": "boshurik/websocket",
+    "description": "Test websocket",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BoShurik",
+            "email": "boshurik@amicus.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "": "src/" }
+    },
+    "require": {
+        "cboden/ratchet": "~0.3",
+        "bunny/bunny": "~0.2"
+    },
+    "suggest": {
+        "react/socket": "To interact with application by sockets",
+        "react/zmq": "To interact with application with ZeroMQ"
+    }
+}
